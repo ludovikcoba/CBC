@@ -12,7 +12,7 @@ title 'Design 3 x 3';
 proc print data=design;run;
 
 %choiceff(data=design, /* candidate set of alternatives */
-model=class(x1-x2 / sta), /* model with stdzd orthogonal coding, we will use "effects" to switch to effects codins*/
+model=class(x1-x2 / sta), /* model with stdzd orthogonal coding, we will use "effects" to switch to effects codings*/ 
 nsets=6, /* number of choice sets */
 seed=127, /* random number seed */
 maxiter=100,
